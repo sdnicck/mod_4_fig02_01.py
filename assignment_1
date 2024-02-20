@@ -1,1 +1,33 @@
+# fig02_01.py
+# Satya Dulam
+# question 3.5
+"""Comparing integers using if statements and comparison operators."""
+print('Please enter two integers, and I will tell you the relationships they satisfy.')
 
+ # input first integer
+number1 = int(input('Enter first integer: '))
+
+# input second integer
+number2 = int(input('Enter second integer: '))
+
+#setting conditions to compare inputed numbers 
+
+#are the numbers equal
+if number1 == number2:
+    print(number1, "is equal to", number2)
+else: 
+    print(number1, "is not equal to", number2)
+    
+#which number is greater
+if number1 < number2:
+    print(number1, "is less than", number2)
+elif number2 < number1:
+    print(number1, "is greater than", number2)
+else:
+    print(number1, "is equal to", number2)
+    
+#which number greater the other or are they equal to each other
+if number1 <= number2:
+    print(number1, "is less than or equal to", number2)
+else:
+    print(number1,"is greater than or equal to",number2)
