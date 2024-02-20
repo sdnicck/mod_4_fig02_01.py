@@ -24,7 +24,7 @@ if number1 < number2:
 elif number2 < number1:
     print(number1, "is greater than", number2)
 else:
-    print(number1, "is equal to", number2)
+    print("")
     
 #which number greater the other or are they equal to each other
 if number1 <= number2:
